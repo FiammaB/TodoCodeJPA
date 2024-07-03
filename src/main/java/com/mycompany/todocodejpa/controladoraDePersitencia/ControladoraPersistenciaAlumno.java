@@ -2,8 +2,8 @@
 package com.mycompany.todocodejpa.controladoraDePersitencia;
 
 import com.mycompany.todocodejpa.logica.Alumno;
-import com.mycompany.todocodejpa.persistencia.AlumnoJpaController;
-import com.mycompany.todocodejpa.persistencia.exceptions.NonexistentEntityException;
+import com.mycompany.todocodejpa.persitencia.AlumnoJpaController;
+import com.mycompany.todocodejpa.persitencia.exceptions.NonexistentEntityException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;

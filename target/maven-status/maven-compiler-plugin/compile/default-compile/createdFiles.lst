@@ -1,1 +1,17 @@
+com\mycompany\todocodejpa\persistencia\exceptions\NonexistentEntityException.class
+com\mycompany\todocodejpa\logica\Carrera.class
 com\mycompany\todocodejpa\TodoCodeJPA.class
+com\mycompany\todocodejpa\persitencia\AlumnoJpaController.class
+com\mycompany\todocodejpa\persitencia\exceptions\PreexistingEntityException.class
+com\mycompany\todocodejpa\controladoraMetodos\ControladoraCarrera.class
+com\mycompany\todocodejpa\persitencia\exceptions\IllegalOrphanException.class
+com\mycompany\todocodejpa\logica\Carrera_.class
+com\mycompany\todocodejpa\logica\Alumno_.class
+com\mycompany\todocodejpa\logica\Alumno.class
+com\mycompany\todocodejpa\persistencia\exceptions\PreexistingEntityException.class
+com\mycompany\todocodejpa\controladoraDePersitencia\ControladoraPersistenciaCarrera.class
+com\mycompany\todocodejpa\controladoraMetodos\ControladoraAlumno.class
+com\mycompany\todocodejpa\persitencia\CarreraJpaController.class
+com\mycompany\todocodejpa\persistencia\exceptions\IllegalOrphanException.class
+com\mycompany\todocodejpa\controladoraDePersitencia\ControladoraPersistenciaAlumno.class
+com\mycompany\todocodejpa\persitencia\exceptions\NonexistentEntityException.class

@@ -3,6 +3,7 @@
   <persistence-unit name="unidadpersistenciaPUtodocode" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>com.mycompany.todocodejpa.logica.Alumno</class>
+    <class>com.mycompany.todocodejpa.logica.Carrera</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/todocodejpa?serverTimezone=UTC"/>
       <property name="javax.persistence.jdbc.user" value="root"/>

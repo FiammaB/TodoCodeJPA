@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.todocodejpa.persistencia;
+package com.mycompany.todocodejpa.persitencia;
 
 import com.mycompany.todocodejpa.logica.Alumno;
-import com.mycompany.todocodejpa.persistencia.exceptions.NonexistentEntityException;
+import com.mycompany.todocodejpa.persitencia.exceptions.NonexistentEntityException;
 import java.io.Serializable;
 import java.util.List;
 import javax.persistence.EntityManager;
@@ -16,16 +16,18 @@ import javax.persistence.Persistence;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-
+/**
+ *
+ * @author brizu
+ */
 public class AlumnoJpaController implements Serializable {
 
     public AlumnoJpaController(EntityManagerFactory emf) {
         this.emf = emf;
     }
-     public AlumnoJpaController() {
+      public AlumnoJpaController() {
         emf =Persistence.createEntityManagerFactory("unidadpersistenciaPUtodocode") ;
     }
-    
     private EntityManagerFactory emf = null;
 
     public EntityManager getEntityManager() {
